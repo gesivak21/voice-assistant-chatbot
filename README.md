@@ -9,7 +9,7 @@ The application is designed to run reliably on **Render** and uses **OpenAI APIs
 
 The application is deployed on Render and can be accessed here:
 
-👉 https://voice-assistant-chatbot.streamlit.app/
+👉 https://voice-assistant-chatbot-s3zk.onrender.com/api_key_config
 
 ---
 
@@ -176,5 +176,6 @@ All rights are reserved.
 ## 👩‍💻 Author
 
 **G. Siva Kumar** | 📧 [gesivak21@example.com](mailto:gesivak21@gmail.com) | 🌐 [GitHub](https://github.com/gesivak21/Portfolio)
+
 
 
