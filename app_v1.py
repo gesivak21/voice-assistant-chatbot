@@ -1,8 +1,5 @@
 # === Import necessary libraries ===
 import streamlit as st
-from hide_pages import hide_streamlit_pages
-hide_streamlit_pages()
-
 from transcript import get_transcripts
 from response import get_llm_response
 from gtts import gTTS
@@ -180,4 +177,5 @@ with st.spinner("Thinking..."):
             # Store in session state (in-memory)
             st.session_state.latest_audio_b64 = base64.b64encode(mp3_fp.read()).decode()
         
+
         st.rerun()
